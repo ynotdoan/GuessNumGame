@@ -45,8 +45,6 @@ def main ():
 
     randomNum = RNG (min, max)
 
-    print (randomNum)
-
     userInput = guess (min, max, randomNum)
 
     # after user guesses correctly, function guess returns True
